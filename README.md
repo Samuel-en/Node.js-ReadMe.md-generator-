@@ -1,41 +1,7 @@
-# Node.js-ReadMe.md-generator-
-
-   # ${data.title}
-
-  ${data.badge}
-
-  ## Description 
-  ${data.description}
-
-  ## Table of contents
-
-  - [Description](#Description)
-  - [Installation](#Installation)
-  - [Usage](#Usage)
+- [Description](#Description)
   - [Licence](#Licence)
-  - [Contributors](#Contributors)
   - [Repository Link](#Repository)
-  - [Contact Info](#GitHub) 
-
-  ## Installation
-  ${data.installation}
-
-  ## Usage
-  ${data.usage}
-
-  ## Licence
-  ${data.licence}
-
-  ## Contributors
-  ${data.contributing}
-
-  ## Test
-  ${data.test}
   
-  ## Contact Info:
+  ## Description
 
-  Github: [${data.Username}](https://github.com/Samuel-en)
-  Email: [${data.Email}] (samiandreas70@gmail.com)
-  
-  `;
-  }
+  created a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package]. You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
