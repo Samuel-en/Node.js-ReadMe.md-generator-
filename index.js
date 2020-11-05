@@ -1,7 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const Choices = require("inquirer/lib/objects/choices");
-const generateMarkdown = ("./utils/generateMarkdown")
+const generateMarkdown = ('./utils/generateMarkdown')
 
 
 // array of questions for user
@@ -9,27 +9,27 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "what is the project title?",
+        message: "what is the project title?"
     },
     {
         type: "input",
         name: "title",
-        message: "What are steps to install the project?",
+        message: "What are steps to install the project?"
     },
     {
         type: "input",
         name: "title",
-        message: "what is the project title?",
+        message: "what is the project title?"
     },
     {
         type: "input",
         name: "title",
-        message: "Provide instructions for the usage of this project",
+        message: "Provide instructions for the usage of this project"
     },
     {
         type: "input",
         name: "title",
-        message: "who are the collaborators in this project?",
+        message: "who are the collaborators in this project?"
     },
     {
         type: "input",
@@ -57,15 +57,8 @@ function writeToFile(README, data){
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions).then(answers=>{
-
-        //utilize the writeToFile method you created on line 50 - then give the file a name "ReadMe.md"- then utilize
-            //the generateMarkdown() 
-                //hint: the responses for the inquierer will be needed along with the spread operator
-
-
-   
-        // console.log("Working")
+    inquirer.prompt(questions)
+            .then(answers=>{
     })
 
 }
